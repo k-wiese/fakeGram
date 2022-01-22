@@ -33,8 +33,8 @@
             @endcan
             <div class="d-flex" >
                 <div class="pe-4"> <strong>{{$user->posts->count()}}</strong> posts</div>
-                <div class="pe-4"> <strong>14</strong> followers</div>
-                <div class="pe-4"> <strong>133</strong> following</div>
+                <div class="pe-4"> <strong>{{$user->profile->followers->count()}}</strong> followers</div>
+                <div class="pe-4"> <strong>{{$user->following->count()}}</strong> following</div>
             </div>
             <div class="pt-4 font-weight-bold"><strong>{{ $user->profile->title}}</strong> </div>
             <div>{{ $user->profile->description  }}</div>

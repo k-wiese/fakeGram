@@ -14,7 +14,7 @@
                         <img src="/storage/{{$post->user->profile->profileImage() }}" class="rounded-circle w-100" style="max-width:50px" alt="">
                     </div>
                     <div>
-                        <div class="font-weight-bold"><a href="/profile/"{{$post->user->id}}> 
+                        <div class="font-weight-bold"><a href="/profile/{{$post->user->id}}"> 
                             <span class="text-dark">  {{$post->user->username}}</a></span>
                             <a class="pe-3" href="">Follow</a>
                         
