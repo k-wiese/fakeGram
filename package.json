@@ -20,6 +20,7 @@
         "resolve-url-loader": "^2.3.2",
         "sass": "^1.32.11",
         "sass-loader": "^11.0.1",
+        "tailwindcss": "^3.0.16",
         "vue": "^3.2.27",
         "vue-loader": "^17.0.0",
         "vue-template-compiler": "^2.6.12"
