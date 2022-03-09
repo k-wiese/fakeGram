@@ -1,6 +1,7 @@
 <template>
     <div>
-        <button class="btn btn-primary ms-4" @click="followUser" v-text="buttonText"></button>
+        <v-btn elevation="24"></v-btn>
+
 
     </div>
         

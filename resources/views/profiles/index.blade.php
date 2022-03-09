@@ -1,7 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+<div class="container" id="app" >
+<v-app><v-main><v-btn elevation="24">FUCK PUTIN</v-btn></v-main></v-app>
     <div class="row">
 
         <div class="col-3 p-4">
@@ -15,6 +16,7 @@
                 <div class="h4">{{$user->username}}</div>
 
                 
+
                 <follow-button user-id="{{$user->id}}" follows="{{$follows}}"></follow-button>
  
                 
